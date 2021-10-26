@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  	<head>
+    	<meta charset="utf-8">
+    	<title>Trabajo Practico Integrador | Carlos Marcano</title>
+
+    	<!-- Bootstrap -->
+		<link href="bootstrap-4.6.0/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/estilo.css">
+
+  	</head>
+
+  	<body>    
+		<header>
+			<!-- Barra de Navegacion | Clase Navbar de Bootstrap -->
+		  	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			    <div class="container">
+			        <a class="navbar-brand" href="#">
+			        	<img src="images/codoacodo.png" alt="CodoACodo" style="width:100px;">Conf Bs As
+			        </a>
+			        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			        <span class="navbar-toggler-icon"></span>
+			        </button>
+
+			        <div class="collapse navbar-collapse" id="navbar">
+				        <ul class="navbar-nav ml-auto">
+						    <li class="nav-item active">
+						        <a class="nav-link" href="#">La Conferencia <span class="sr-only">(current)</span></a>
+						    </li>
+						    <li class="nav-item">
+						        <a class="nav-link" href="#">Los Oradores</a>
+						    </li>
+						    <li class="nav-item">
+						        <a class="nav-link" href="#">El Lugar y la Fecha</a>
+						    </li>
+						    <li class="nav-item">
+						        <a class="nav-link" href="#">Conviértete en Orador</a>
+						    </li>
+						    <li class="nav-item">
+						        <a class="nav-link text-success" href="404.html">Comprar Tickets</a>
+						    </li>
+					    </ul>
+					</div>
+				</div>
+		  	</nav>
+		</header>
+
+			<!-- Primera Sección | Se utiliza la clase Carusel de Bootstrap-->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			    <ol class="carousel-indicators">
+			      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    </ol>
+			    <div class="carousel-inner">
+			      	<div class="carousel-item active">
+			        <img id="imagenOscura" class="img-fluid" src="images/ba1b.jpg" >
+				        <div class="carousel-caption text-right">
+				        	<div class="container" id="carruselCaption">
+					           	<h3>Conf Bs As</h3>
+					            <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te espereamos!</p>
+					            <a class="btn btn-md bg-transparent border text-light" href="#">Quiero ser Orador</a>
+					            <a class="btn btn-md btn-success" href="404.html">Comprar Tickets</a>
+				            </div>
+				        </div>
+				    </div>
+			    </div>
+			</div>
+
+		  <!-- Segunda Seccion | Oradores | Se utiliza la clase CARD´s de Bootstrap -->
+			<p id="oradores" align="center"> CONOCE A LOS</p>
+			<h3 align="center">ORADORES</h3>
+			
+			<div class="container text-center" id="cards">
+				<div class="card">
+				  	<img class="card-img-top" src="images/steve.jpg" >
+				  	<div class="card-body text-left">
+				  		<span class="badge badge-warning">JavaScript</span>
+				  		<span class="badge badge-primary">React</span>
+					    <h5 class="card-title">Steve Jobs</h5>
+					    <p class="card-text" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit imperdiet bibendum. Nullam sed urna a odio pellentesque rhoncus et quis risus. Fusce at ligula congue, faucibus eros non, egestas urna.</p>
+				  	</div>
+				</div>
+				<div class="card">
+				  	<img class="card-img-top" src="images/bill.jpg" >
+				  	<div class="card-body text-left">
+				  		<span class="badge badge-warning text-left">JavaScript</span>
+				  		<span class="badge badge-primary text-left">React</span>
+					    <h5 class="card-title text-left">Bill Gates</h5>
+					    <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit imperdiet bibendum. Nullam sed urna a odio pellentesque rhoncus et quis risus. Fusce at ligula congue, faucibus eros non, egestas urna.</p>
+				  	</div>
+				</div>
+				<div class="card">
+				  	<img class="card-img-top" src="images/ada.jpeg" >
+				  	<div class="card-body text-left">
+				  		<span class="badge badge-secondary text-left">Negocios</span>
+				  		<span class="badge badge-danger text-left">Startups</span>
+					    <h5 class="card-title text-left">Ada Lovelace</h5>
+					    <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit imperdiet bibendum. Nullam sed urna a odio pellentesque rhoncus et quis risus. Fusce at ligula congue, faucibus eros non, egestas urna. </p>
+				  	</div>
+				</div>
+		  	</div>
+		  	
+		  	<!-- Tercera Seccion | Imagen y Descripción -->
+		  	<div class="container-fluid">
+			    <div class="row">
+			    	<div class="col-md-6 border" id="imageDescripcion">
+			        	<img class="img-fluid" src="images/honolulu.jpg" id="imagen">
+			      	</div>
+			      	<div class="col-md-6 border" id="descripcion">
+			      		<h4 id="tituloDescriptivo">Bs As - Octubre</h4>
+				        <p id="textDescriptivo">Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre Honolulu se refiere al área urbana en la costa sureste de la isla Oahu, la ciudad y el condado de Honolulu han formado una cudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p>
+				        <a class="btn btn-sm bg-transparent border text-light" href="#">Conoce más</a>
+			      	</div>
+			    </div>
+			</div>
+
+			<!-- Cuarta Seccion | Formulario para ser Orador -->
+			<p id="oradores" align="center"> CONVIÉRTETE EN UN</p>
+			<h3 align="center">ORADOR</h3>
+			<p align="center"> Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+
+			<div class="row">
+          		<div class="col col-md-6 offset-lg-3 pt-2">
+		            <form>
+		                <div class="form-row text-left">
+			                <div class="form-group col-12 col-md-6 text-center align-content-center">
+			                  	<input type="text" class="form-control" placeholder="Nombre">
+			                </div>
+			                <div class="form-group col-12 col-md-6">
+			                  	<input type="text" class="form-control" placeholder="Apellido">
+			                </div>
+			                <div class="form-group col-12 col-md-12">
+			                  	<textarea class="form-control form-control-lg" rows="3" placeholder="Sobre qué quieres hablar?" id="comment"></textarea>
+			                  	<p><small class="text-muted">Recuerda incluir un título para tu charla.</small></p>
+			                </div>
+		                </div>
+		                <div class="form-row">
+			                <div class="col-12">
+			                  	<button type="button" id="botonEnviar" class="btn btn-modificado btn-block">Enviar</button>
+			                </div>
+		                </div>
+		            </form>
+		        </div>
+        	</div>
+
+		<!-- Footer -->
+		<footer id="footer" class="pb-4 pt-4">
+		    <div class="container">
+		        <div class="row text-center">
+		          	<div class="col-12 col-lg">
+		            	<a href="#">Preguntas frecuentes</a>
+		          	</div>
+		          	<div class="col-12 col-lg">
+		            	<a href="#">Contáctanos</a>
+		          	</div>
+		          	<div class="col-12 col-lg">
+		            	<a href="#">Prensa</a>
+		          	</div>
+		          	<div class="col-12 col-lg">
+		            	<a href="#">Conferencias</a>
+		          	</div>
+		          	<div class="col-12 col-lg">
+		            	<a href="#">Términos y condiciones</a>
+		          	</div>
+		          	<div class="col-12 col-lg">
+		            	<a href="#">Privacidad</a>
+		          	</div>
+		          	<div class="col-12 col-lg">
+		            	<a href="#">Estudiantes</a>
+		          	</div>
+		        </div>
+		    </div>
+		</footer>
+
+		<!-- Scripts -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+		<script src="bootstrap-4.6.0/js/bootstrap.bundle.min.js"></script>
+
+	</body>
+</html>

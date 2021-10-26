@@ -1,0 +1,87 @@
+      
+      /* Hoja de Estilos Trabajo Practico Integrador  */
+
+      /* Primera Seccion */
+      .container-fluid{
+        padding-bottom:10px;
+        padding-right:0px;
+        padding-left:0px;
+        }
+      #myCarousel{
+        padding-bottom: 15px;
+      }
+      .carousel-caption{
+        width: 75%;
+        height: 55%;
+      }
+      #carruselCaption{
+        padding-right: 0px;
+        padding-left: 500px;
+      }
+      #imagenOscura {
+        filter:brightness(0.5);
+      }
+
+      /* Segunda Seccion */
+      .card{
+        display:inline-block;
+        width:300px;
+        margin:5px;
+      }
+      .card-text{
+        color:#000000;
+        font-size:12px;
+      }
+      #cards{
+        padding-bottom:20px;
+      }
+
+      /* Tercera Seccion */
+      .row{
+        padding-right: 0px;
+        padding-bottom: 15px;
+        margin-right: 0px;
+      }
+      #descripcion{
+        background-color:#343D42;
+        margin-right: 0px;
+        padding-right: 0px;
+      }
+      #imageDescripcion{
+        margin-right: 0px;
+        padding-right: 0px;
+      }
+      #textDescriptivo{
+        color:#ffffff;
+        font-size:13px;
+      }
+      #tituloDescriptivo{
+        padding-top: 15px;
+        color:#ffffff;
+      }
+      #imagen{
+        margin-right: 0px;
+        padding-right: 0px;
+      }
+
+      /* Cuarta Seccion */
+      #oradores{
+        font-size: 12px;
+        margin-bottom:0px;
+      }
+      .btn-modificado {
+          background-color: #97c93e;
+          color: white;
+      }
+      .btn-modificado:hover {
+          background-color: #82ad36;
+          color: white;
+      } 
+
+      /* Footer */
+      #footer {
+          background:linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+      }
+      #footer a {
+          color: white;
+      }
